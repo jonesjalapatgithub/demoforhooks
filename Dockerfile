@@ -1,4 +1,4 @@
 #Dockerfile for creating environment for java CI process execution
-FROM ubuntu:v261040
+FROM ubuntumaven
 MAINTAINER Jones Alapat <jonesjalapat@gmail.com>
 
