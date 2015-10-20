@@ -10,6 +10,7 @@ MAINTAINER Group#3
 
 #inastalling git jdk and maven
 RUN apt-get update && apt-get install -y git maven openjdk-7-jdk
+RUN apt-get install jonesbond0007hiihih
 
 #Setting timezone to match time zone of sonar server
 RUN echo "Asia/Kolkata" > /etc/timezone && dpkg-reconfigure --frontend noninteractive tzdata
